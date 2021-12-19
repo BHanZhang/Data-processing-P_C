@@ -116,7 +116,7 @@ plt.plot(np.log10(np.arange(4000,90000)),E(np.log10(np.arange(4000,90000))),ls='
 plt.plot(np.log10(np.arange(2000,4000)),B(np.log10(np.arange(2000,4000))),ls='--',c='orange',zorder=2)
 plt.plot(np.log10(np.arange(2000,4000)),E(np.log10(np.arange(2000,4000))),ls='--',c='orange',zorder=2)
 plt.legend(loc='upper right')
-plt.savefig('流体阻力1.pdf')
+plt.savefig('流体阻力1.pdf',bbox_inches='tight')
 plt.show()
 
 

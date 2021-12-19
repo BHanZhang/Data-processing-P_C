@@ -120,6 +120,6 @@ plt2.grid(zorder=0)
 plt2.scatter(np.log(Re),C,c='purple',marker='o',label='original datas',zorder=3)
 plt2.plot(np.log(Re),E(np.log(Re)),ls='-',c='orange',label=r'$ C =  0.03205 \ln{R_{e}} + 0.5121$',zorder=2)
 plt2.legend(loc='lower left')
-plt2.savefig('文丘里3.pdf')
+plt2.savefig('文丘里3.pdf',bbox_inches='tight')
 plt2.show()
 

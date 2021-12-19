@@ -119,6 +119,6 @@ plt.grid(zorder=0)
 plt2.scatter(np.log(Re),K,c='purple',marker='o',label='original datas',zorder=3)
 plt.plot(np.log(Re),E(np.log(Re)),ls='-',c='orange',label=r'$ \ln{R_{e}} =-3853 \ln{f} + 3.439\times 10^{5}$',zorder=2)
 plt.legend(loc='lower left')
-plt2.savefig('涡轮3.pdf')
+plt2.savefig('涡轮3.pdf',bbox_inches='tight')
 plt2.show()
 
